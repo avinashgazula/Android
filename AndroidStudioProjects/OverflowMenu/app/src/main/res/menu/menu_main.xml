@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.avinash.overflowmenu.MainActivity">
+
+    <group android:checkableBehavior="none">
+        <item
+            android:id="@+id/Red"
+            android:orderInCategory="1"
+            app:showAsAction="never"
+            android:title="Red" />
+        <item
+            android:id="@+id/Blue"
+            android:orderInCategory="2"
+            app:showAsAction="never"
+            android:title="blue" />
+        <item
+            android:id="@+id/Yellow"
+            android:orderInCategory="3"
+            app:showAsAction="never"
+            android:title="Yellow" />
+
+     </group>
+</menu>

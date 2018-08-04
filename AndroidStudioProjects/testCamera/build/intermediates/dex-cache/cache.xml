@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\testCamera\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="bed32de9551847ca4255e5dce5408b44e64a8d70">
+        <dex dex="E:\AndroidStudioProjects\testCamera\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_6bbe6f20da81a0ac2ee2fa59aac0dcd863886b2a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\testCamera\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\AndroidStudioProjects\testCamera\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_e7f8ca494c920aec717b56646203329b972ffc1d\classes.dex" />
+    </item>
+
+</items>

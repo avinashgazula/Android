@@ -1,0 +1,147 @@
+-- Merging decision tree log ---
+manifest
+ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:1-23:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a9f5a4bcbb273c6130af25ea53cba135\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3efba791527796a75ddea116c3593a68\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0b7012e1e8ba3829449c20720e505a3\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d9592573e7edf5137973748cfd5e8790\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d30b3538265eda534223f1b4b1e3bead\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\44c0e8f87c2c53b050cc4a90c79c8c08\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\669e2cf7c2be6647292dba59ec51de42\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3af76c9d92373719312f40cdaf59469d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\d83f17bc363c50a4f845c182885a09fa\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\fc6282a38bf0ef6b3d97c4efa63f18e8\AndroidManifest.xml:17:1-31:12
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:1-23:12
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:1-23:12
+	package
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:3:5-45
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:1-23:12
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:2:11-69
+application
+ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:5:5-21:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a9f5a4bcbb273c6130af25ea53cba135\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a9f5a4bcbb273c6130af25ea53cba135\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3efba791527796a75ddea116c3593a68\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3efba791527796a75ddea116c3593a68\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0b7012e1e8ba3829449c20720e505a3\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0b7012e1e8ba3829449c20720e505a3\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d9592573e7edf5137973748cfd5e8790\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d9592573e7edf5137973748cfd5e8790\AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d30b3538265eda534223f1b4b1e3bead\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d30b3538265eda534223f1b4b1e3bead\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\44c0e8f87c2c53b050cc4a90c79c8c08\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\44c0e8f87c2c53b050cc4a90c79c8c08\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\669e2cf7c2be6647292dba59ec51de42\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\669e2cf7c2be6647292dba59ec51de42\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3af76c9d92373719312f40cdaf59469d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3af76c9d92373719312f40cdaf59469d\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\d83f17bc363c50a4f845c182885a09fa\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\d83f17bc363c50a4f845c182885a09fa\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\fc6282a38bf0ef6b3d97c4efa63f18e8\AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\fc6282a38bf0ef6b3d97c4efa63f18e8\AndroidManifest.xml:29:5-20
+	android:supportsRtl
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:10:9-35
+	android:label
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:8:9-41
+	android:roundIcon
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:9:9-43
+	android:icon
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:7:9-38
+	android:allowBackup
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:6:9-35
+	android:theme
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:11:9-40
+activity#com.example.avinash.flappybird.startScreen
+ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:12:9-18:20
+	android:name
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:12:19-46
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:13:13-17:29
+action#android.intent.action.MAIN
+ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:14:17-69
+	android:name
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:14:25-66
+category#android.intent.category.LAUNCHER
+ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:16:17-77
+	android:name
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:16:27-74
+activity#com.example.avinash.flappybird.MainActivity
+ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:19:9-59
+	android:name
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:19:19-47
+activity#com.example.avinash.flappybird.endScreen
+ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:20:9-56
+	android:name
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml:20:19-44
+uses-sdk
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a9f5a4bcbb273c6130af25ea53cba135\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a9f5a4bcbb273c6130af25ea53cba135\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3efba791527796a75ddea116c3593a68\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\3efba791527796a75ddea116c3593a68\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0b7012e1e8ba3829449c20720e505a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0b7012e1e8ba3829449c20720e505a3\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d9592573e7edf5137973748cfd5e8790\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d9592573e7edf5137973748cfd5e8790\AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d30b3538265eda534223f1b4b1e3bead\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d30b3538265eda534223f1b4b1e3bead\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\44c0e8f87c2c53b050cc4a90c79c8c08\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\44c0e8f87c2c53b050cc4a90c79c8c08\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\669e2cf7c2be6647292dba59ec51de42\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\669e2cf7c2be6647292dba59ec51de42\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3af76c9d92373719312f40cdaf59469d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3af76c9d92373719312f40cdaf59469d\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\d83f17bc363c50a4f845c182885a09fa\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\d83f17bc363c50a4f845c182885a09fa\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\fc6282a38bf0ef6b3d97c4efa63f18e8\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\fc6282a38bf0ef6b3d97c4efa63f18e8\AndroidManifest.xml:21:5-23:58
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a9f5a4bcbb273c6130af25ea53cba135\AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+		ADDED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+		INJECTED from E:\AndroidStudioProjects\flappyBird\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a9f5a4bcbb273c6130af25ea53cba135\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0b7012e1e8ba3829449c20720e505a3\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-25.3.1.aar\a0b7012e1e8ba3829449c20720e505a3\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d9592573e7edf5137973748cfd5e8790\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-25.3.1.aar\d9592573e7edf5137973748cfd5e8790\AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d30b3538265eda534223f1b4b1e3bead\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-v4-25.3.1.aar\d30b3538265eda534223f1b4b1e3bead\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\44c0e8f87c2c53b050cc4a90c79c8c08\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-fragment-25.3.1.aar\44c0e8f87c2c53b050cc4a90c79c8c08\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\669e2cf7c2be6647292dba59ec51de42\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-media-compat-25.3.1.aar\669e2cf7c2be6647292dba59ec51de42\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3af76c9d92373719312f40cdaf59469d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-utils-25.3.1.aar\3af76c9d92373719312f40cdaf59469d\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\d83f17bc363c50a4f845c182885a09fa\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-core-ui-25.3.1.aar\d83f17bc363c50a4f845c182885a09fa\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\fc6282a38bf0ef6b3d97c4efa63f18e8\AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\support-compat-25.3.1.aar\fc6282a38bf0ef6b3d97c4efa63f18e8\AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a9f5a4bcbb273c6130af25ea53cba135\AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] C:\Users\Avinash\.gradle\caches\transforms-1\files-1.1\appcompat-v7-25.3.1.aar\a9f5a4bcbb273c6130af25ea53cba135\AndroidManifest.xml:26:9-47

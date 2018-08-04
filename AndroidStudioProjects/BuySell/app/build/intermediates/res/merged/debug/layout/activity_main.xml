@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent" android:layout_height="match_parent">
+
+    <TextView
+        android:id="@+id/title"
+        android:text="Buy and Sell"
+        android:textSize="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="22dp" />
+
+    <EditText
+        android:id="@+id/buyerUsername"
+        android:inputType="text"
+        android:maxLines="1"
+        android:layout_marginTop="60dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/title"
+        android:hint="Username"/>
+
+    <EditText
+        android:id="@+id/buyerPassword"
+        android:inputType="textPassword"
+        android:maxLines="1"
+        android:layout_marginTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/buyerUsername"
+        android:hint="Password"/>
+
+    <Button
+        android:id="@+id/buyerLoginButton"
+        android:layout_below="@+id/buyerPassword"
+        android:layout_marginTop="30dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:text="LOGIN"/>
+
+    <TextView
+        android:id="@+id/sellerLogin"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="28dp"
+        android:text="Seller? Click here"
+        android:onClick="openSellerLoginPage"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginRight="14dp"
+        android:layout_marginEnd="14dp" />
+
+    <TextView
+        android:id="@+id/customerText"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_below="@+id/title"
+        android:layout_marginTop="14dp"
+        android:text="Customer Login : " />
+
+    <TextView
+        android:id="@+id/customerSignup"
+        android:onClick="createNewBuyer"
+        android:textSize="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Customer? Click here"
+        android:layout_below="@+id/buyerLoginButton"
+        android:layout_alignRight="@+id/buyerLoginButton"
+        android:layout_alignEnd="@+id/buyerLoginButton"
+        android:layout_marginTop="39dp" />
+
+
+
+</RelativeLayout>

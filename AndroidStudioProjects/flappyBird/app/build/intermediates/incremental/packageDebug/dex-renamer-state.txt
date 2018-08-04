@@ -1,0 +1,7 @@
+#Mon Jul 17 17:44:15 IST 2017
+base.0=E\:\\AndroidStudioProjects\\flappyBird\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_958d1d7dfec55329dbe7ba5d43e895fc4b7b9289
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\AndroidStudioProjects\\flappyBird\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5ebaef3385b7349e288555320ec6855bf86e886e\\classes.dex
+base.1=E\:\\AndroidStudioProjects\\flappyBird\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_5ebaef3385b7349e288555320ec6855bf86e886e
+file.0=E\:\\AndroidStudioProjects\\flappyBird\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_958d1d7dfec55329dbe7ba5d43e895fc4b7b9289\\classes.dex

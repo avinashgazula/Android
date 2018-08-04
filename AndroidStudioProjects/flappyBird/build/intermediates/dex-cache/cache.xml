@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\flappyBird\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\AndroidStudioProjects\flappyBird\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_958d1d7dfec55329dbe7ba5d43e895fc4b7b9289\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\flappyBird\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="56d1d332e6f19b7a13682b3ba2578d4c0d793606">
+        <dex dex="E:\AndroidStudioProjects\flappyBird\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_5ebaef3385b7349e288555320ec6855bf86e886e\classes.dex" />
+    </item>
+
+</items>

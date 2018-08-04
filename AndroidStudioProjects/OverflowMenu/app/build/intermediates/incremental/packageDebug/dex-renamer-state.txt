@@ -1,0 +1,7 @@
+#Wed Jun 14 02:35:45 IST 2017
+base.0=E\:\\AndroidStudioProjects\\OverflowMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dd09316f2895a4de9a90361a69d0f8394d3ed26f
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=E\:\\AndroidStudioProjects\\OverflowMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0ea2e977388bc29f7636b7b3fab9b7f318f4e0ad\\classes.dex
+base.1=E\:\\AndroidStudioProjects\\OverflowMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_0ea2e977388bc29f7636b7b3fab9b7f318f4e0ad
+file.0=E\:\\AndroidStudioProjects\\OverflowMenu\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_dd09316f2895a4de9a90361a69d0f8394d3ed26f\\classes.dex

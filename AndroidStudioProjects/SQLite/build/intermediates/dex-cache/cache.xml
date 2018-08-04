@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\SQLite\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="37154e2fbd08d2764b22c41f88f71f8ccbc88074">
+        <dex dex="E:\AndroidStudioProjects\SQLite\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a2f61cf648b165639fad33d94e1e3e1b334dbe32\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\AndroidStudioProjects\SQLite\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.3"
+        sha1="caff8e51a24901cfc9cd7e1cf83d84f4cb0c103b">
+        <dex dex="E:\AndroidStudioProjects\SQLite\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_06bc4ee89ae965d3976dc5ddb63f915396ca3424\classes.dex" />
+    </item>
+
+</items>

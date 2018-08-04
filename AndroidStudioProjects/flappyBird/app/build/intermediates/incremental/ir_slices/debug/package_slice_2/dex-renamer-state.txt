@@ -1,0 +1,4 @@
+#Sat May 12 19:37:22 IST 2018
+base.0=E\:\\AndroidStudioProjects\\flappyBird\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\2
+path.0=classes.dex
+renamed.0=classes.dex

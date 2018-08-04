@@ -1,0 +1,7 @@
+#Mon Jul 17 18:23:25 IST 2017
+base.0=E\:\\AndroidStudioProjects\\BuySell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_67e3bd587b8bc5513e6915e9b8628b5913063565
+renamed.1=classes2.dex
+renamed.0=classes.dex
+file.1=E\:\\AndroidStudioProjects\\BuySell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ff6346c4f2bf8e699e9d591a0d38d5104da2cb34\\classes.dex
+base.1=E\:\\AndroidStudioProjects\\BuySell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run_ff6346c4f2bf8e699e9d591a0d38d5104da2cb34
+file.0=E\:\\AndroidStudioProjects\\BuySell\\app\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10000\\instant-run-bootstrap_67e3bd587b8bc5513e6915e9b8628b5913063565\\classes.dex

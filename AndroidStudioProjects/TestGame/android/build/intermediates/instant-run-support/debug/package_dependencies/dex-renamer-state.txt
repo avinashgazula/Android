@@ -1,0 +1,10 @@
+#Wed Jun 28 13:22:36 IST 2017
+renamed.2=classes2.dex
+renamed.1=classes3.dex
+renamed.0=classes.dex
+base.2=E\:\\AndroidStudioProjects\\TestGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-backend-android-1.9.6_3943c27beb99720dee97eb381655ebd8dfb0097e
+base.1=E\:\\AndroidStudioProjects\\TestGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-box2d-1.9.6_f1a3eeb9cb754c68fc9bb3b00ca8cce5e35afd1e
+base.0=E\:\\AndroidStudioProjects\\TestGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-1.9.6_161737b8ccd79b0eed87bfe1eafa54faf572c494
+file.2=E\:\\AndroidStudioProjects\\TestGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-backend-android-1.9.6_3943c27beb99720dee97eb381655ebd8dfb0097e\\classes.dex
+file.1=E\:\\AndroidStudioProjects\\TestGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-box2d-1.9.6_f1a3eeb9cb754c68fc9bb3b00ca8cce5e35afd1e\\classes.dex
+file.0=E\:\\AndroidStudioProjects\\TestGame\\android\\build\\intermediates\\transforms\\dex\\debug\\folders\\1000\\10\\gdx-1.9.6_161737b8ccd79b0eed87bfe1eafa54faf572c494\\classes.dex
