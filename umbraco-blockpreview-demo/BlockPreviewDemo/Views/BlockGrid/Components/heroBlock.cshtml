@@ -1,0 +1,29 @@
+@using Umbraco.Community.BlockPreview.Interfaces
+@model Umbraco.Cms.Core.Models.Blocks.BlockGridItem
+
+@{
+    var isPreview = ViewData.ContainsKey("blockPreview");
+}
+
+<div class="hero-block">
+    <div class="hero-block__inner">
+        <h2 class="hero-block__title">Hero Block</h2>
+        <p class="hero-block__body">
+            This is a demo block showing the BlockPreview stylesheet race condition.
+            The styles for this block are loaded via <code>adoptedStyleSheets</code>
+            into the Lit element's shadow root.
+        </p>
+        @if (isPreview)
+        {
+            <span class="hero-block__badge hero-block__badge--preview">Preview mode</span>
+        }
+    </div>
+</div>
+
+@*
+  NOTE: This <link> is injected into the shadow DOM via unsafeHTML().
+  Without the fix in block-preview-base.element.ts, the shadow root may
+  not have its adoptedStylesheets applied yet when this markup lands,
+  causing the block to briefly render without styles.
+*@
+<link rel="stylesheet" href="/css/blocks.css" />

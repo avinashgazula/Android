@@ -1,0 +1,82 @@
+/* ─────────────────────────────────────────────────────────────────────────
+   blocks.css  —  stylesheet for BlockPreview demo blocks
+   This file is fetched and adopted into the Lit shadow root via
+   adoptedStyleSheets. The race condition is visible when this adoption
+   completes AFTER the preview markup is already set on the shadow root.
+   ───────────────────────────────────────────────────────────────────────── */
+
+/* Hero block */
+.hero-block {
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.hero-block__inner {
+  padding: 2rem;
+  background: linear-gradient(135deg, #3544b1 0%, #6c63ff 100%);
+  color: #fff;
+}
+
+.hero-block__title {
+  margin: 0 0 0.5rem;
+  font-size: 1.4rem;
+  font-weight: 700;
+}
+
+.hero-block__body {
+  margin: 0 0 1rem;
+  opacity: 0.9;
+  line-height: 1.6;
+  font-size: 0.9rem;
+}
+
+.hero-block__body code {
+  background: rgba(255, 255, 255, 0.15);
+  padding: 0.1em 0.4em;
+  border-radius: 3px;
+  font-size: 0.85em;
+}
+
+.hero-block__badge {
+  display: inline-block;
+  padding: 0.25rem 0.75rem;
+  border-radius: 20px;
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.hero-block__badge--preview {
+  background: rgba(255, 255, 255, 0.2);
+  color: #fff;
+  border: 1px solid rgba(255, 255, 255, 0.4);
+}
+
+/* Text block */
+.text-block {
+  border-radius: 8px;
+  overflow: hidden;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.text-block__inner {
+  padding: 1.5rem;
+  background: #f8f9fc;
+  border: 2px solid #dde0ee;
+}
+
+.text-block__title {
+  margin: 0 0 0.4rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: #222;
+}
+
+.text-block__body {
+  margin: 0;
+  color: #555;
+  line-height: 1.6;
+  font-size: 0.875rem;
+}

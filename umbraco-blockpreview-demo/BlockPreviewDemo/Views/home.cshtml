@@ -1,0 +1,36 @@
+@using Umbraco.Cms.Web.Common.PublishedModels
+@inherits Umbraco.Cms.Web.Common.Views.UmbracoViewPage
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>BlockPreview Demo</title>
+    <link rel="stylesheet" href="/css/blocks.css" />
+    <style>
+        body { font-family: system-ui, sans-serif; max-width: 800px; margin: 2rem auto; padding: 0 1rem; }
+        h1   { font-size: 1.4rem; }
+        p    { color: #555; line-height: 1.6; }
+        a    { color: #3544b1; }
+    </style>
+</head>
+<body>
+    <h1>BlockPreview Stylesheet Race Condition Demo</h1>
+    <p>
+        This Umbraco site is pre-configured with two block grid element types:
+        <strong>Hero Block</strong> and <strong>Text Block</strong>.
+    </p>
+    <p>
+        To reproduce the issue, go to the
+        <a href="/umbraco" target="_blank">backoffice</a>, create a new page,
+        add blocks to the block grid property, and observe that block styles
+        are missing until you reload the backoffice with DevTools open.
+    </p>
+    <p>
+        See <code>README.md</code> for full setup steps and the exact fix.
+    </p>
+</body>
+</html>
