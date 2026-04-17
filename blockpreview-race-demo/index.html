@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>BlockPreview — Stylesheet Race Condition Demo</title>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; }
+
+    body {
+      font-family: system-ui, -apple-system, sans-serif;
+      max-width: 1000px;
+      margin: 2rem auto;
+      padding: 0 1.25rem;
+      background: #f4f5f9;
+      color: #222;
+    }
+
+    h1 { font-size: 1.4rem; margin: 0 0 0.25rem; }
+    .subtitle {
+      color: #555;
+      font-size: 0.9rem;
+      margin: 0 0 1.75rem;
+      line-height: 1.6;
+    }
+    .subtitle code {
+      background: #e8eaf0;
+      padding: 0.1em 0.4em;
+      border-radius: 3px;
+      font-size: 0.85em;
+    }
+
+    /* ── Controls ── */
+    .controls {
+      background: white;
+      border: 1px solid #dde0ee;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      margin-bottom: 1.75rem;
+      display: flex;
+      align-items: center;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .controls label { font-size: 0.9rem; font-weight: 600; color: #444; }
+    .controls input[type="range"] { width: 180px; accent-color: #3544b1; }
+    .delay-value { font-weight: 700; color: #3544b1; min-width: 52px; }
+    .controls button {
+      padding: 0.45rem 1.3rem;
+      background: #3544b1;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      cursor: pointer;
+      font-size: 0.9rem;
+      font-weight: 600;
+      transition: background 0.15s;
+    }
+    .controls button:hover { background: #2a3690; }
+
+    /* ── Grid ── */
+    .grid {
+      display: grid;
+      grid-template-columns: 1fr 1fr;
+      gap: 1.25rem;
+    }
+    @media (max-width: 620px) { .grid { grid-template-columns: 1fr; } }
+
+    .panel {
+      background: white;
+      border: 1px solid #dde0ee;
+      border-radius: 10px;
+      overflow: hidden;
+    }
+
+    .panel-header {
+      padding: 0.85rem 1.25rem;
+      border-bottom: 1px solid #eef0f8;
+      display: flex;
+      align-items: center;
+      gap: 0.6rem;
+    }
+    .panel-header h2 { margin: 0; font-size: 1rem; }
+
+    .badge {
+      padding: 0.2rem 0.65rem;
+      border-radius: 20px;
+      font-size: 0.72rem;
+      font-weight: 700;
+      letter-spacing: 0.02em;
+      text-transform: uppercase;
+    }
+    .badge-bug { background: #fee8e8; color: #c00; }
+    .badge-fix { background: #e6f7ee; color: #1a7a3c; }
+
+    .panel-body { padding: 1.25rem; min-height: 220px; }
+
+    /* ── Timeline log ── */
+    .timeline {
+      margin-top: 1rem;
+      font-size: 0.78rem;
+      font-family: ui-monospace, "Cascadia Code", monospace;
+      background: #f8f9fc;
+      padding: 0.75rem 1rem;
+      border-radius: 6px;
+      border: 1px solid #eef0f8;
+      min-height: 3.5rem;
+    }
+    .log-entry { margin: 0.18rem 0; line-height: 1.5; }
+    .log-css    { color: #8a6000; }
+    .log-api    { color: #005a8a; }
+    .log-render { color: #3544b1; }
+    .log-warn   { color: #c00;    font-weight: 700; }
+    .log-ok     { color: #1a7a3c; font-weight: 700; }
+    .log-info   { color: #666; }
+
+    /* ── Explanation box ── */
+    .explainer {
+      margin-top: 1.75rem;
+      background: white;
+      border: 1px solid #dde0ee;
+      border-radius: 10px;
+      padding: 1.25rem 1.5rem;
+      font-size: 0.875rem;
+      line-height: 1.7;
+    }
+    .explainer h3 { margin: 0 0 0.5rem; font-size: 0.95rem; }
+    .explainer code {
+      background: #e8eaf0;
+      padding: 0.1em 0.4em;
+      border-radius: 3px;
+      font-size: 0.85em;
+    }
+    .diff {
+      margin-top: 1rem;
+      border-radius: 6px;
+      overflow: hidden;
+      border: 1px solid #dde0ee;
+      font-family: ui-monospace, "Cascadia Code", monospace;
+      font-size: 0.8rem;
+      line-height: 1.6;
+    }
+    .diff-line { padding: 0.1rem 1rem; white-space: pre; }
+    .diff-add  { background: #e6f7ee; color: #1a5c30; }
+    .diff-ctx  { background: white;   color: #555; }
+  </style>
+</head>
+<body>
+
+  <h1>BlockPreview — Stylesheet Race Condition</h1>
+  <p class="subtitle">
+    Replicates the race between <code>fetchAndLoadStylesheets()</code> and
+    <code>renderBlockPreview()</code> in BlockPreview's Lit element.
+    Both run concurrently; on fast machines the markup lands in the shadow root
+    <em>before</em> the stylesheet is adopted — causing a flash of unstyled content
+    that only disappears when DevTools slows execution down.
+  </p>
+
+  <div class="controls">
+    <label>
+      Simulated CSS fetch delay:&nbsp;
+      <input type="range" id="delay" min="0" max="2000" step="100" value="800" />
+    </label>
+    <span class="delay-value" id="delay-val">800 ms</span>
+    <button id="reset">↺ Re-run</button>
+  </div>
+
+  <div class="grid">
+    <!-- Buggy -->
+    <div class="panel">
+      <div class="panel-header">
+        <h2>Buggy</h2>
+        <span class="badge badge-bug">Race condition</span>
+      </div>
+      <div class="panel-body">
+        <buggy-block id="buggy"></buggy-block>
+        <div class="timeline" id="buggy-log"></div>
+      </div>
+    </div>
+
+    <!-- Fixed -->
+    <div class="panel">
+      <div class="panel-header">
+        <h2>Fixed</h2>
+        <span class="badge badge-fix">Awaits stylesheets</span>
+      </div>
+      <div class="panel-body">
+        <fixed-block id="fixed"></fixed-block>
+        <div class="timeline" id="fixed-log"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="explainer">
+    <h3>What's happening</h3>
+    <p>
+      Both elements use Shadow DOM and adopt their stylesheet via
+      <code>adoptedStyleSheets</code> — exactly how BlockPreview works.
+      In the <strong>buggy</strong> version, <code>fetchAndLoadStylesheets()</code>
+      is fired without being awaited, so the preview markup renders concurrently.
+      Whichever finishes first wins; without DevTools overhead the API response
+      usually arrives before the CSS, leaving the block unstyled.
+    </p>
+    <p>
+      The <strong>fix</strong> stores the stylesheet fetch in a deduplicated
+      <code>Promise</code> and <code>await</code>s it at the top of
+      <code>renderBlockPreview()</code>. CSS and the API call still run in
+      parallel, but markup is never painted until both are ready.
+    </p>
+    <div class="diff">
+      <div class="diff-line diff-ctx"> protected async renderBlockPreview() {</div>
+      <div class="diff-line diff-ctx">   if (!this._isConnected) return;</div>
+      <div class="diff-line diff-ctx">   this.resolveUniqueFromContext();</div>
+      <div class="diff-line diff-ctx">   if (!this.validatePreviewData()) return;</div>
+      <div class="diff-line diff-add">+  await this.fetchAndLoadStylesheets();</div>
+      <div class="diff-line diff-ctx">   this._isLoading = true;</div>
+      <div class="diff-line diff-ctx">   ...</div>
+    </div>
+  </div>
+
+  <script type="module" src="./src/buggy-block.js"></script>
+  <script type="module" src="./src/fixed-block.js"></script>
+  <script>
+    const delayInput = document.getElementById('delay');
+    const delayVal   = document.getElementById('delay-val');
+    const resetBtn   = document.getElementById('reset');
+
+    delayInput.addEventListener('input', () => {
+      delayVal.textContent = delayInput.value + ' ms';
+    });
+
+    resetBtn.addEventListener('click', () => {
+      const ms = parseInt(delayInput.value, 10);
+      document.getElementById('buggy-log').innerHTML = '';
+      document.getElementById('fixed-log').innerHTML = '';
+      document.getElementById('buggy').reset(ms);
+      document.getElementById('fixed').reset(ms);
+    });
+  </script>
+</body>
+</html>
